@@ -1,0 +1,130 @@
+/*External CSS to format the layout of my web site*/
+	#container
+	{
+		margin: 0 auto;
+		width: 70%;
+		background: #F8F8F8;
+		font-family: verdana, sans serif;
+		border-style: solid;
+		border-color: #A34646;
+	}
+	
+	#header h2 {
+     position: absolute;
+     left: 500px;
+     top: 10px;
+	}
+	
+	body {
+    background-image: url("backg.jpg");
+	}
+	
+	
+	#header
+	{
+		background:#FFF;
+		padding: 5px;
+	}
+	#header h1
+	{
+		margin: 0;
+		color: #A34646;
+		font-size: 90%;
+		text-align: right;
+	}
+	
+	#navigation
+	{
+	float: left;
+	width: 100%;
+	background:#A34646;
+	}
+	#navigation ul
+	{
+	margin: 0;
+	padding: 0;
+	}
+	
+	#navigation ul li
+	{
+	list-style-type: none;
+	display: inline;
+	}
+	
+	#navigation li a
+	{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid#fff;
+	}
+	
+	#navigation li a:hover
+	{
+	background:#DF7E7E;
+	color: #fff
+	}
+	
+	#content
+	{
+	clear: left;
+	padding: 20px;
+	}
+	#content h2
+	{
+	color:#7C2929;
+	font-size: 110%;
+	margin: 0 0 .5em;
+	}
+	
+	table {
+    width:100%;
+	}
+	table, th, td {
+    border: 3px solid #7C2929;
+    border-collapse:collapse;    
+	}
+	th, td {
+    padding: 5px;
+    text-align: left;
+	}
+	table th {
+    background-color: #7C2929;
+    color: white;
+	}
+
+	
+	#footer
+	{
+	background:#A34646;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+	color: #fff;
+	}
+	
+	a:link
+	{
+	color: #DF7E7E;
+	text-decoration: none;
+	}
+
+	a:active
+	{
+	color: #3366FF;
+	text-decoration: none;
+	}
+
+	a:visited
+	{
+	color: #3366FF;
+	text-decoration: none;
+	}
+
+	a:hover
+	{
+	color: #7A7ACC;
+	text-decoration: none;
+	}

@@ -1,0 +1,26 @@
+<!--HTML document to define the layout of the head and the navigation bar-->
+
+<div id="container">
+<div id="header">
+
+
+<center><a href="index.php"><img src=workedup_logo1.png></a></center>
+<h1 style= "font-size: 25px">
+<marquee behavior="alternate"> Ash Cakes to sweeten your life....</marquee>
+</h1>
+
+<h1><?php 
+date_default_timezone_set("Asia/Colombo");
+echo date('d F Y H:i:s');?> </h1>
+</div>
+	
+	<div id="navigation">
+		<ul>
+			<li><a href="adminmenu.php">Admin Menu</a></li>
+			<li><a href="addproduct.php">Add Product</a></li>
+			<li><a href="editstock.php">Edit Stock levels</a></li>
+			<li><a href="logout.php">Logout</a></li>	
+		</ul>
+	</div>
+	
+	<div id="content">	
